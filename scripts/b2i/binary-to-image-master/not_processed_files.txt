@@ -1,0 +1,15 @@
+D:\AFSO\diploma\current_version\practice\all_linux_files\files\chromiumlib
+D:\AFSO\diploma\current_version\practice\all_linux_files\files\chromiumlib
+D:\AFSO\diploma\current_version\practice\all_linux_files\files\libclntsh.so.19.1lib
+D:\AFSO\diploma\current_version\practice\all_linux_files\files\libclntsh.so.19.1lib
+D:\AFSO\diploma\current_version\practice\all_linux_files\files\libLLVM-6.0.so.1lib
+D:\AFSO\diploma\current_version\practice\all_linux_files\files\libLLVM-10.so.1lib
+D:\AFSO\diploma\current_version\practice\all_linux_files\files\libLLVM-10.so.1lib
+D:\AFSO\diploma\current_version\practice\all_linux_files\files\libLLVM-8.so.1lib
+D:\AFSO\diploma\current_version\practice\all_linux_files\files\libLLVM-9.so.1lib
+D:\AFSO\diploma\current_version\practice\all_linux_files\files\libLLVM-9.so.1lib
+D:\AFSO\diploma\current_version\practice\all_linux_files\files\libociei.solib
+D:\AFSO\diploma\current_version\practice\all_linux_files\files\libociei.solib
+D:\AFSO\diploma\current_version\practice\all_linux_files\files\libwireshark.so.13.0.7lib
+D:\AFSO\diploma\current_version\practice\all_linux_files\files\libxul.solib
+D:\AFSO\diploma\current_version\practice\all_linux_files\files\libxul.solib
