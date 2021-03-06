@@ -12,12 +12,16 @@ BE CAREFUL! This module do not designed for enterprise or commerce usage. There 
 
 ## Signature analysis module
 
-Signature analysis module represents [ResNet50](https://www.tensorflow.org/api_docs/python/tf/keras/applications/ResNet50){:target="_blank"} neural net wrapped with flask framework in server side and console python3 script that interact with server via REST API. **It's only detects malware without classification**. You can find model weights [here](https://mega.nz/file/FZwkzb7J#f55p4e12hzNWCvlb3W1333rF3ACCcMUiUOZVuFE5d-g) (model accuracy was about 98,16%), but make sure that you want to use this weights, because training dataset was not good enough for real environment. You always can download this weights for transfer learning your own model.
+Signature analysis module represents [ResNet50](https://www.tensorflow.org/api_docs/python/tf/keras/applications/ResNet50) neural net wrapped with flask framework in server side and console python3 script that interact with server via REST API. **It's only detects malware without classification**. You can find model weights [here](https://mega.nz/file/FZwkzb7J#f55p4e12hzNWCvlb3W1333rF3ACCcMUiUOZVuFE5d-g) (model accuracy was about 98,16%), but make sure that you want to use this weights, because training dataset was not good enough for real environment. You always can download this weights for transfer learning your own model.
 
 To turn on the server you need to run MalDetS.ipynb in your jupyter (or convert it to python script and run with console). On default it maps server on port 8003. Server logs some info to log file and stores analysis information in SQLite database.
 
 To interact with the server you have to be in the same net area and just run script **MalDetS_client.py** with proper params.
-
+ ### Requirments
+ - tensorflow==2.4
+ - flask
+ - pillow
+ - numpy
 
 <details>
   <summary markdown="span">Here you can see how to use MalDetS_client.py</summary>
