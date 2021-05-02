@@ -1,0 +1,4 @@
+docker load -i maldet.tar
+docker run -it -p 8003:8003 a203fa0e8a72
+cd MalDet/maldet/MalDet/
+python3 MalDet.py
