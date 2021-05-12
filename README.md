@@ -77,7 +77,7 @@ Thx a lot to this [guys](https://github.com/H2Cyber/VolDiff) for providing a nic
 All global params written in *set.py*. You need to create your own sandbox VM. It can be any win system you want, you can customize any tools inside vm (like office, tcpdump, fakenet etc). But this example uses "naked" win7 with all security features disabled.
 </details>
 
-Behaviuoral module uses memory forensics survey for malware analysis. Malware runs in isolated program env (VMWare), than infected dump is being compared with clean dump using VolDiff. After that possible malicious heuristics (50 different heuristics) are being extracted from report. Criminalist gets archive with screens from VM, full report and mini report. Of course lots of malware detects VMWare unfortunately, so you can move VM to KVM or QEMU.
+Behaviuoral module uses memory forensics survey for malware analysis. Malware being run in isolated program env (VMWare), than infected dump is being compared with clean dump using VolDiff. After that possible malicious heuristics (50 different heuristics) are being extracted from report. Criminalist gets archive with screens from VM, full report and mini report. Of course lots of malware detects VMWare unfortunately, so you can move VM to KVM or QEMU.
 
 ## Usage
 To turn on the server you need to run `python3 MalDet.py` in your console. It maps server on port 8003. Server logs some info to stdout and stores analysis information in SQLite database.
