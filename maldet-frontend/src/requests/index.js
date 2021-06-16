@@ -2,7 +2,7 @@ import * as axios from 'axios';
 
 const FileDownload = require('js-file-download');
 
-const baseUrl = 'http://10.33.100.113:8004';
+const baseUrl = 'http://localhost:8004';
 
 
 export const searchData = async (data, callback) => {
