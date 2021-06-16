@@ -1,0 +1,90 @@
+.radio-group {
+    font-size: 18px;
+
+    :nth-child(n) {
+        margin-top : 8px;
+        margin-left: 4px;
+    }
+}
+
+.btn {
+    border-radius: 6px;
+    padding-left : 24px;
+    padding-right: 24px;
+    font-size    : 16px;
+
+    &:not(:disabled) {
+        cursor: pointer;
+    }
+
+    &:not(:first-child) {
+        margin-left: 24px;
+    }
+}
+
+.search {
+    margin: 16px 72px;
+
+    &__input {
+        font-size    : 16px;
+        height       : 36px;
+        width        : 50%;
+        border-radius: 6px;
+        padding-left : 8px;
+        padding-right: 8px;
+
+        &-block {
+            display       : flex;
+            flex-direction: row;
+            margin-top    : 38px;
+        }
+    }
+
+    &__radio {
+        margin-top: 32px;
+    }
+
+    &__body {
+        margin-top   : 38px;
+        border-radius: 6px;
+        background   : blanchedalmond;
+        font-size    : 16px;
+        padding      : 12px;
+
+        pre {
+            white-space: pre-wrap;
+            margin     : 0;
+        }
+    }
+}
+
+.analyze {
+    margin: 16px 72px;
+
+    &__upload {
+        &-block {
+            margin-top: 32px;
+        }
+
+        &-filename {
+            height      : 16px;
+            font-size   : 16px;
+            padding-top : 12px;
+            padding-left: 8px;
+            user-select: none;
+        }
+    }
+
+    &__body {
+        margin-top   : 38px;
+        border-radius: 6px;
+        background   : blanchedalmond;
+        font-size    : 16px;
+        padding      : 12px;
+
+        pre {
+            white-space: pre-wrap;
+            margin     : 0;
+        }
+    }
+}
