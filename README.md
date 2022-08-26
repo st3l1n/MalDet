@@ -4,7 +4,7 @@
 This is my graduation work on malware analysis with machine learning algorithms and behavioural malware analysis in custom sandbox for incident response process perfomance improving. 
 
 ## Disclaimer
-BE CAREFUL! This module do not designed for enterprise or commerce usage. There are no any security                               features and It won't work with heavy load. You can use it for malware analysis in your own environment       or just take some code and methodology patterns.
+BE CAREFUL! This module is not designed for enterprise or commerce usage. There are no any security                               features and It won't work with heavy load. You can use it for malware analysis in your own environment       or just take some code and methodology patterns.
 
 ## Framework consists of two modules:
 >  * Signature analysis module based on computer vision technology and yara framework
